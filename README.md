@@ -15,7 +15,7 @@ It highlights my background as a Computer Science student, showcases my featured
 - Pandas
 
 ## 🔗 Live Website
-[rodela.vercel.app](https://rodela.vercel.app) *(Update once deployed)*
+https://rodela-dev-site.onrender.com/
 
 ## 📂 Sections
 - About Me
