@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import Projects from "./Projects";
 import Contact from "./Contact";
+import Footer from "./Footer";
 
 const typingPhrases = [
   "Computer Science Student at USF",
@@ -178,6 +179,7 @@ return (
     >
       <Contact />
     </section>
+    <Footer />
   </>
 );
 

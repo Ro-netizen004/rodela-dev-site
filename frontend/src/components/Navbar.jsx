@@ -7,7 +7,7 @@ const Navbar = () => {
   const navLinks = [
     { name: "Home", href: "#home" },
     { name: "Projects", href: "#projects" },
-    { name: "Resume", href: "#resume" },
+    { name: "Resume", href: "/Resume.pdf" },
     { name: "Contact", href: "#contact" },
   ];
 
@@ -26,6 +26,8 @@ const Navbar = () => {
               <a
                 href={href}
                 className="hover:font-bold transition-all"
+                target={name === "Resume" ? "_blank" : undefined}
+                rel={name === "Resume" ? "noopener noreferrer" : undefined}
               >
                 {name}
               </a>
@@ -75,6 +77,8 @@ const Navbar = () => {
                   href={href}
                   className="block hover:font-bold transition-all"
                   onClick={() => setIsOpen(false)}
+                  target={name === "Resume" ? "_blank" : undefined}
+                  rel={name === "Resume" ? "noopener noreferrer" : undefined}
                 >
                   {name}
                 </a>

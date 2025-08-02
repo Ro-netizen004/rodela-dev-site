@@ -1,22 +1,44 @@
+import { useState } from "react";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 const Contact = () => {
+  const [status, setStatus] = useState(""); // 'success' | 'error' | ''
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const form = e.target;
+
+    const data = new FormData(form);
+
+    try {
+      const res = await fetch("https://formspree.io/f/xzzvazap", {
+        method: "POST",
+        body: data,
+        headers: {
+          Accept: "application/json",
+        },
+      });
+
+      if (res.ok) {
+        setStatus("success");
+        form.reset();
+      } else {
+        setStatus("error");
+      }
+    } catch (err) {
+      setStatus("error");
+    }
+  };
+
   return (
     <section
       id="contact"
-      className="min-h-screen bg-white text-gray-800 font-sans px-8 md:px-20 max-w-6xl mx-auto w-full"
+      className="py-8 bg-white text-gray-800 font-sans px-6 md:px-20 max-w-5xl mx-auto w-full"
     >
-      <h1 className="text-3xl font-semibold mb-12 text-center">Contact Me</h1>
+      <h1 className="text-3xl font-semibold mb-10 text-center">Contact Me</h1>
 
       <div className="max-w-xl mx-auto">
-        <form
-          className="space-y-6"
-          onSubmit={(e) => {
-            e.preventDefault();
-            alert("Thank you for reaching out! I'll get back to you soon.");
-            e.target.reset();
-          }}
-        >
+        <form onSubmit={handleSubmit} className="space-y-5">
           <div>
             <label htmlFor="name" className="block mb-1 font-medium">
               Name
@@ -65,10 +87,17 @@ const Contact = () => {
           >
             Send Message
           </button>
+
+          {status === "success" && (
+            <p className="text-green-600 text-center">Thank you! I’ll get back to you soon.</p>
+          )}
+          {status === "error" && (
+            <p className="text-red-600 text-center">Oops! Something went wrong. Try again later.</p>
+          )}
         </form>
 
         {/* Social Links */}
-        <div className="mt-12 flex justify-center gap-8 text-gray-600">
+        <div className="mt-10 flex justify-center gap-8 text-gray-600">
           <a
             href="https://github.com/Ro-netizen004"
             target="_blank"
