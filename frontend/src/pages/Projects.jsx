@@ -1,4 +1,4 @@
-import TechStack from "../components/Techstack";
+import TechStack from "../components/TechStack";
 import { FaGithub } from "react-icons/fa";
 import { FiExternalLink } from "react-icons/fi";
 
