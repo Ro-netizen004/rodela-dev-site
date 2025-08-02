@@ -9,10 +9,6 @@ It highlights my background as a Computer Science student, showcases my featured
 - React.js
 - Tailwind CSS
 - Vite
-- Supabase / Express.js
-- MongoDB
-- Numpy
-- Pandas
 
 ## 🔗 Live Website
 https://rodela-dev-site.onrender.com/
