@@ -15,12 +15,21 @@ import {
 } from "react-icons/si";
 
 const techStacks = [
-  { name: "Python", icon: <SiScikitlearn className="text-yellow-600" /> }, // Using scikitlearn icon as Python is missing in react-icons
+  {
+    name: "Python",
+    icon: (
+      <img
+        src="/python.jpg"       // <-- path to your SVG in public folder
+        alt="Python"
+        className="w-8 h-8"
+      />
+    ),
+  },
   { name: "JavaScript", icon: <FaJsSquare className="text-yellow-400" /> },
   { name: "HTML5", icon: <FaHtml5 className="text-orange-600" /> },
   { name: "CSS3", icon: <FaCss3Alt className="text-blue-600" /> },
-  { name: "C#", icon: <SiUnity className="text-purple-700" /> }, // Reusing Unity icon for C# (no dedicated icon)
-  { name: "SQL", icon: <SiSupabase className="text-indigo-600" /> }, // Using Supabase icon to represent SQL/PostgreSQL
+  { name: "C#", icon: <SiUnity className="text-purple-700" /> }, // Unity icon as placeholder
+  { name: "SQL", icon: <SiSupabase className="text-indigo-600" /> }, // Supabase for SQL
   { name: "React", icon: <FaReact className="text-blue-500" /> },
   { name: "Node.js", icon: <FaNodeJs className="text-green-600" /> },
   { name: "Express.js", icon: <SiExpress className="text-gray-700" /> },
@@ -54,3 +63,4 @@ const TechStack = () => {
 };
 
 export default TechStack;
+
