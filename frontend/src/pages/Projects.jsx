@@ -4,6 +4,14 @@ import { FiExternalLink } from "react-icons/fi";
 
 const sampleProjects = [
   {
+    id: 8,
+    title: "Linear Regression Model",
+    description: "A model made with Scikit Learn to predict different factors related to diabetes.",
+    link :"https://github.com/Ro-netizen004/Machine-Learning-Practice/blob/main/linreg.ipynb",
+    site: "https://github.com/Ro-netizen004/Machine-Learning-Practice/blob/main/linreg.ipynb",
+    tech: ["python", "scikit-learn", "pandas", "NumPy","Google Collab"]
+  },
+  {
     id: 1,
     title: "CreatorVerse",
     description:

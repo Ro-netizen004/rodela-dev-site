@@ -43,8 +43,6 @@ const Home = () => {
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
   };
 
-  
-  // ...rest of your imports and component code unchanged
 
 return (
   <>
@@ -96,14 +94,26 @@ return (
 
       {/* Fun Fact / Footer Info Section */}
       <div className="mt-14 text-xs sm:text-sm text-gray-500  pt-8 max-w-6xl mx-auto px-16 md:px-20 flex flex-col sm:flex-row justify-between gap-20 sm:gap-6">
-        <div className="flex gap-20">
+        <div className="flex flex-wrap gap-10 sm:gap-20">
           <div>
             <div className="font-medium">Origin</div>
             <div>Bangladesh</div>
           </div>
           <div>
-            <div className="font-medium mr-16">Education</div>
+            <div className="font-medium">Education</div>
             <div>CS @ USF</div>
+          </div>
+          <div>
+            <div className="font-medium">Level</div>
+            <div>Undergraduate</div>
+          </div>
+          <div>
+            <div className="font-medium">Communities</div>
+            <div>Honors College</div>
+          </div>
+          <div>
+            <div className="font-medium mr-24">GPA</div>
+            <div>3.9</div>
           </div>
         </div>
         <div className="flex gap-6">

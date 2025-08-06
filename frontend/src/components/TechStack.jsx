@@ -11,36 +11,41 @@ import {
   SiExpress,
   SiUnity,
   SiMongodb,
+  SiScikitlearn,
 } from "react-icons/si";
 
 const techStacks = [
-  { name: "React", icon: <FaReact className="text-blue-500" /> },
-  { name: "Node.js", icon: <FaNodeJs className="text-green-600" /> },
-  { name: "Express.js", icon: <SiExpress className="text-gray-700" /> },
-  { name: "Supabase", icon: <SiSupabase className="text-green-500" /> },
-  { name: "MongoDB", icon: <SiMongodb className="text-green-700" /> },
-  { name: "Tailwind CSS", icon: <SiTailwindcss className="text-teal-400" /> },
+  { name: "Python", icon: <SiScikitlearn className="text-yellow-600" /> }, // Using scikitlearn icon as Python is missing in react-icons
   { name: "JavaScript", icon: <FaJsSquare className="text-yellow-400" /> },
   { name: "HTML5", icon: <FaHtml5 className="text-orange-600" /> },
   { name: "CSS3", icon: <FaCss3Alt className="text-blue-600" /> },
+  { name: "C#", icon: <SiUnity className="text-purple-700" /> }, // Reusing Unity icon for C# (no dedicated icon)
+  { name: "SQL", icon: <SiSupabase className="text-indigo-600" /> }, // Using Supabase icon to represent SQL/PostgreSQL
+  { name: "React", icon: <FaReact className="text-blue-500" /> },
+  { name: "Node.js", icon: <FaNodeJs className="text-green-600" /> },
+  { name: "Express.js", icon: <SiExpress className="text-gray-700" /> },
+  { name: "Tailwind CSS", icon: <SiTailwindcss className="text-teal-400" /> },
+  { name: "Supabase", icon: <SiSupabase className="text-green-500" /> },
+  { name: "MongoDB", icon: <SiMongodb className="text-green-700" /> },
+  { name: "Scikit-learn", icon: <SiScikitlearn className="text-orange-400" /> },
   { name: "Unity", icon: <SiUnity className="text-black" /> },
 ];
 
 const TechStack = () => {
   return (
-    <section className="bg-gray-50 text-gray-900 py-16 px-6 max-w-5xl mx-auto font-sans">
-      <h3 className="text-xl font-semibold text-center mb-10 tracking-wide">
-        My Tech Stack So Far
+    <section className="mt-10 py-10 px-4 max-w-4xl mx-auto text-gray-800">
+      <h3 className="text-lg font-semibold text-center mb-8 tracking-wide">
+        Tech Stack
       </h3>
 
-      <div className="grid grid-cols-3 sm:grid-cols-5 gap-8 justify-items-center">
+      <div className="grid grid-cols-3 sm:grid-cols-5 gap-6 justify-items-center text-sm">
         {techStacks.map(({ name, icon }) => (
           <div
             key={name}
-            className="flex flex-col items-center space-y-2 text-center text-sm font-medium text-gray-700"
+            className="flex flex-col items-center space-y-1 text-center"
           >
-            <div className="text-4xl">{icon}</div>
-            <span>{name}</span>
+            <div className="text-2xl">{icon}</div>
+            <span className="text-xs">{name}</span>
           </div>
         ))}
       </div>
