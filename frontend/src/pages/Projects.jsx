@@ -4,6 +4,15 @@ import { FiExternalLink } from "react-icons/fi";
 
 const sampleProjects = [
   {
+    id: 9,
+    title: "Graduate Admission Predictor",
+    description: "A full-stack web app that predicts graduate admission chances using a machine learning model trained on the Graduate Admissions Dataset. Built with Flask backend and React frontend.",
+    link: "https://github.com/Ro-netizen004/GradAdmissionPredictor",
+    site: "https://gradadmissionpredictor.onrender.com/",
+    tech: ["python", "flask", "scikit-learn", "react", "tailwindcss", "vite", "render","full-stack development"]
+},
+
+  {
     id: 8,
     title: "Linear Regression Model",
     description: "A model made with Scikit Learn to predict different factors related to diabetes.",
