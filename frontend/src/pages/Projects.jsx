@@ -98,7 +98,7 @@ const Projects = () => {
         {sampleProjects.map(({ id, title, description, link, site, tech }) => (
           <article
             key={id}
-            className="border border-gray-200 rounded-lg p-5 hover:shadow-lg transition-shadow duration-300"
+            className="border border-gray-200 bg-gray-100 rounded-lg p-5 hover:shadow-lg transition-shadow duration-300"
           >
             <h2 className="text-lg font-medium mb-2">{title}</h2>
             <p className="text-gray-600 text-sm mb-4">{description}</p>
@@ -107,7 +107,7 @@ const Projects = () => {
               {tech.map((techItem) => (
                 <span
                   key={techItem}
-                  className="text-xs font-medium bg-gray-100 text-gray-700 px-2 py-0.5 rounded-full"
+                  className="text-xs font-medium bg-white text-gray-700 px-2 py-0.5 rounded-full"
                 >
                   {techItem}
                 </span>
