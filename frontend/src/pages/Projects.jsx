@@ -1,4 +1,4 @@
-import TechStack from "../components/TechStack";
+
 import { FaGithub } from "react-icons/fa";
 import { FiExternalLink } from "react-icons/fi";
 import { sampleProjects } from "../data/projectData";
@@ -59,8 +59,6 @@ const Projects = () => {
           </article>
         ))}
       </div>
-
-      <TechStack />
     </section>
   );
 };

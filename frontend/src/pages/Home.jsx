@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import Info from "../components/Info";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import TechStack from "../components/TechStack";
 
 const typingPhrases = [
   "Computer Science Student at USF",
@@ -101,73 +102,7 @@ const Home = () => {
           </div>
         </div>
 
-        {/* Info Section */}
-        <div className="mt-14 text-xs sm:text-sm text-gray-800 pt-8 w-screen max-w-6xl mx-auto px-16 md:px-20 flex flex-col sm:flex-row justify-between gap-20 sm:gap-6 bg-gray-100 rounded-xl p-6">
-          {/* Info Section */}
-          <div className="flex flex-wrap gap-10 sm:gap-20">
-            <div>
-              <div className="font-medium text-black">Origin</div>
-              <div>Bangladesh</div>
-            </div>
-            <div>
-              <div className="font-medium text-black">Education</div>
-              <div>CS @ USF</div>
-            </div>
-            <div>
-              <div className="font-medium text-black">Level</div>
-              <div>Undergraduate</div>
-            </div>
-            <div>
-              <div className="font-medium text-black">Communities</div>
-              <div>Honors College</div>
-            </div>
-            <div>
-              <div className="font-medium text-black">GPA</div>
-              <div>3.9</div>
-            </div>
-          </div>
-
-          {/* Social Links */}
-          <div className="flex gap-6">
-            <a
-              href="https://github.com/Ro-netizen004"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-white transition-colors duration-300"
-              aria-label="GitHub Profile"
-            >
-              <FaGithub className="text-lg" />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/rodela-ghosh-9b8ab5311/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-white transition-colors duration-300"
-              aria-label="LinkedIn Profile"
-            >
-              <FaLinkedin className="text-lg" />
-            </a>
-            <a
-              href="mailto:rg21@usf.edu"
-              className="hover:text-white transition-colors duration-300"
-              aria-label="Send Email"
-            >
-              <FaEnvelope className="text-lg" />
-            </a>
-          </div>
-        </div>
-
-
-        {/* Scroll Arrow */}
-        <div className="flex justify-center pb-8 mt-12">
-          <button
-            onClick={() => scrollToSection("projects")}
-            aria-label="Scroll to Projects"
-            className="animate-bounce text-4xl text-gray-700 hover:text-black transition-colors duration-300"
-          >
-            ↓
-          </button>
-        </div>
+        <Info />
       </section>
 
       {/* Projects Section */}
@@ -177,16 +112,8 @@ const Home = () => {
       >
         <div className="max-w-6xl mx-auto px-8 md:px-20">
           <Projects />
-          <div className="flex justify-center pt-8 mt-12">
-            <button
-              onClick={() => scrollToSection("contact")}
-              aria-label="Scroll to Contact"
-              className="animate-bounce text-4xl text-gray-700 hover:text-black transition-colors duration-300"
-            >
-              ↓
-            </button>
-          </div>
         </div>
+        <TechStack />
       </section>
 
       {/* Contact Section */}
