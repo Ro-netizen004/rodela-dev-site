@@ -2,7 +2,7 @@ export const sampleProjects = [
   {
     "id": 10,
     "title": "FuelSense",
-    "description": "A machine learning web application that estimates a car’s fuel efficiency (MPG) based on key vehicle attributes such as cylinders, displacement, horsepower, weight, acceleration, model year, and origin. Built with a Flask backend and Vite + React frontend. Note: On Render's free plan, the first request after inactivity may take longer as the backend spins up.",
+    "description": "A machine learning web application that estimates a car’s fuel efficiency (MPG) based on key vehicle attributes such as cylinders, displacement, horsepower, weight, acceleration, model year, and origin.",
     "link": "https://github.com/Ro-netizen004/Efficiency-Predictor",
     "site": "https://efficiency-predictor.onrender.com/",
     "tech": ["python", "flask", "scikit-learn", "react", "tailwindcss", "vite", "render", "full-stack development", "machine learning"]
