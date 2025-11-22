@@ -36,7 +36,7 @@ const Info = () => {
             href="https://github.com/Ro-netizen004"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-gray-400 transition-colors duration-300"
+            className="hover:text-orange-500 transition-colors duration-300"
             aria-label="GitHub Profile"
           >
             <FaGithub className="text-lg" />
@@ -45,14 +45,14 @@ const Info = () => {
             href="https://www.linkedin.com/in/rodela-ghosh-9b8ab5311/"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-gray-400 transition-colors duration-300"
+            className="hover:text-orange-500 transition-colors duration-300"
             aria-label="LinkedIn Profile"
           >
             <FaLinkedin className="text-lg" />
           </a>
           <a
             href="mailto:rg21@usf.edu"
-            className="hover:text-gray-400 transition-colors duration-300"
+            className="hover:text-orange-500 transition-colors duration-300"
             aria-label="Send Email"
           >
             <FaEnvelope className="text-lg" />
