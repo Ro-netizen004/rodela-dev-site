@@ -1,3 +1,5 @@
+import { FaYoutube, FaChessKnight, FaGithub } from "react-icons/fa";
+
 const About = () => {
   return (
     <div className="bg-white text-gray-900 font-sans">
@@ -51,20 +53,44 @@ const About = () => {
           <div className="bg-gray-100 p-6 rounded-xl shadow-lg hover:shadow-gray-400 transition-all duration-300">
             <h3 className="text-xl font-semibold mb-2">Hackathons</h3>
             <p className="text-gray-700 text-sm">
-              AI Cancer Cell Classifier, Bocky the Book, Origami Bot—basically building stuff fast and learning a ton.
+              AI Cancer Cell Classifier, Bocky the Book —basically building stuff fast and learning a ton.
             </p>
+            <a
+                    href="https://github.com/Ro-netizen004"
+                    className="inline-flex items-center justify-center w-8 h-8  text-sm"
+                >
+                    <FaGithub className="text-lg text-black hover:text-orange-500" />
+             </a>
+
           </div>
           <div className="bg-gray-100 p-6 rounded-xl shadow-lg hover:shadow-gray-400 transition-all duration-300">
-            <h3 className="text-xl font-semibold mb-2">Other Fun Stuff</h3>
-            <p className="text-gray-700 text-sm">
-              Art, my YouTube channel, volunteering, and just trying new things.
-            </p>
+            <h3 className="text-xl font-semibold mb-2 flex items-center gap-2">
+                Other Fun Stuff
+                </h3>
+
+                <p className="text-gray-700 text-sm">
+                Art, my YouTube channel, volunteering, and just trying new things.
+                </p>
+                <a
+                    href="https://www.youtube.com/@artooze9707"
+                    className="inline-flex items-center justify-center w-8 h-8  text-sm"
+                >
+                    <FaYoutube className="text-lg text-black hover:text-orange-500" />
+                </a>
+
+            
           </div>
           <div className="bg-gray-100 p-6 rounded-xl shadow-lg hover:shadow-gray-400 transition-all duration-300">
             <h3 className="text-xl font-semibold mb-2">Chess</h3>
             <p className="text-gray-700 text-sm">
               I love chess! Have been playing for two years now, improving ever since.
             </p>
+            <a
+                    href="https://www.chess.com/member/rutichur"
+                    className="inline-flex items-center justify-center w-8 h-8  text-sm"
+                >
+                    <FaChessKnight className="text-lg text-black hover:text-orange-500" />
+             </a>
           </div>
         </div>
       </section>

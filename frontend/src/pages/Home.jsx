@@ -23,7 +23,7 @@ const Home = () => {
       {/* About Section */}
       <section
         id="about"
-        className="min-h-screen text-gray-800 font-sans"
+        className="min-h-screen text-gray-800 font-sans scroll-mt-24"
       >
         <div className="max-w-6xl mx-auto px-8 md:px-20">
           <About />

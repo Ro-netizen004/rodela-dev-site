@@ -3,6 +3,7 @@ import { FaGithub } from "react-icons/fa";
 import { FiExternalLink } from "react-icons/fi";
 import { sampleProjects } from "../data/projectData";
 
+
 const Projects = () => {
   return (
     <section
@@ -56,9 +57,12 @@ const Projects = () => {
                 </a>
               )}
             </div>
+           
           </article>
         ))}
+
       </div>
+      
     </section>
   );
 };
