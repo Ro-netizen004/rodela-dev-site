@@ -16,7 +16,7 @@ const About = () => {
 
         {/* Right side: text */}
         <div className="md:w-2/3 text-center md:text-left">
-            <img src = "Intro.png" className="mb-2"/>
+            <img src = "intro.jpg" className="mb-2"/>
           <p className="text-sm sm:text-base md:text-lg leading-relaxed text-black font-thin">
             I'm a CS student at USF who loves building cool web apps, messing around with game design, and dabbling in machine learning. I’m always learning new tech, experimenting with projects, and trying to make things a little more fun.
           </p>
