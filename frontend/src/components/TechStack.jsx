@@ -6,7 +6,7 @@ import {
   FaJsSquare,
   FaGitAlt,
 } from "react-icons/fa";
-import SoftSkills from "./SoftSkills";
+
 import {
   SiTailwindcss,
   SiSupabase,
@@ -22,6 +22,7 @@ import {
 } from "react-icons/si";
 import { VscCode } from "react-icons/vsc";
 import Timeline from "./Timeline";
+import SoftSkills from "./Softskills";
 
 const techStacks = [
   { name: "Python", icon: <img src="/python.jpg" alt="Python" className="w-8 h-8 rounded" /> },
