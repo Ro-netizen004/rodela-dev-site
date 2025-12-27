@@ -76,7 +76,7 @@ const TechStack = () => {
             {techStacks.map(({ name, icon }) => (
               <div
                 key={name}
-                className="flex flex-col items-center gap-2 text-center bg-gray-900 p-4 rounded-xl shadow hover:shadow-white transition duration-300 w-full"
+                className="flex flex-col items-center gap-2 text-center bg-black p-4 rounded-xl shadow hover:shadow-white transition duration-300 w-full"
               >
                 <div className="text-2xl">{icon}</div>
                 <span className="text-xs">{name}</span>
@@ -97,7 +97,7 @@ const TechStack = () => {
             {tools.map(({ name, icon }) => (
               <div
                 key={name}
-                className="flex flex-col items-center gap-2 text-center bg-gray-900 p-4 rounded-xl shadow hover:shadow-white transition duration-300 w-full"
+                className="flex flex-col items-center gap-2 text-center bg-black p-4 rounded-xl shadow hover:shadow-white transition duration-300 w-full"
               >
                 <div className="text-2xl">{icon}</div>
                 <span className="text-xs">{name}</span>

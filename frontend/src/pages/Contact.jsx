@@ -33,7 +33,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="py-8 bg-white text-gray-800 font-sans px-6 md:px-20 max-w-5xl mx-auto w-full"
+      className="py-4 bg-white text-gray-800 font-sans px-6 md:px-20 max-w-5xl mx-auto w-full scroll-mt-24"
     >
       <h1 className="text-3xl font-semibold mb-10 text-center">Contact Me</h1>
 

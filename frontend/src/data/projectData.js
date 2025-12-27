@@ -9,7 +9,7 @@ export const sampleProjects = [
   },
   {
     id: 9,
-    title: "Graduate Admission Predictor",
+    title: "Admission Predictor",
     description: "A full-stack web app that predicts graduate admission chances using a machine learning model trained on the Graduate Admissions Dataset. Built with Flask backend and React frontend.",
     link: "https://github.com/Ro-netizen004/GradAdmissionPredictor",
     site: "https://gradadmissionpredictor.onrender.com/",
@@ -19,7 +19,7 @@ export const sampleProjects = [
   {
     id: 8,
     title: "Linear Regression Model",
-    description: "A model made with Scikit Learn to predict different factors related to diabetes.",
+    description: "This project uses a multiple linear regression model to predict diabetes disease progression based on clinical and physiological features. The dataset, provided by scikit-learn, contains measurements such as age, BMI, blood pressure, and blood serum levels for 442 patients.",
     link :"https://github.com/Ro-netizen004/Machine-Learning-Practice/blob/main/linreg.ipynb",
     site: "https://github.com/Ro-netizen004/Machine-Learning-Practice/blob/main/linreg.ipynb",
     tech: ["python", "scikit-learn", "pandas", "NumPy","Google Collab"]

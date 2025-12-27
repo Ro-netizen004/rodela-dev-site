@@ -22,7 +22,7 @@ const SoftSkills = () => {
   ];
 
   return (
-    <section id="soft-skills" className="w-full py-11 bg-black text-white">
+    <section id="soft-skills" className="w-full py-11 bg-black text-white mb-4">
       <div className="px-4 md:px-20 max-w-6xl mx-auto">
         <h3 className="text-lg font-semibold text-center mb-8 tracking-wide">
           Soft Skills
@@ -32,7 +32,7 @@ const SoftSkills = () => {
           {skills.map((skill) => (
             <div
               key={skill.name}
-              className="bg-gray-800 px-4 py-3 rounded-xl shadow hover:shadow-white transition-all duration-300 w-full text-center flex flex-col items-center gap-2"
+              className="bg-black px-4 py-3 rounded-xl shadow hover:shadow-white transition-all duration-300 w-full text-center flex flex-col items-center gap-2"
             >
               <div className="text-2xl text-white">{skill.icon}</div>
               <span className="text-white">{skill.name}</span>
