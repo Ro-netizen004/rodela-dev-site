@@ -6,6 +6,7 @@ import Contact from "./Contact";
 import Footer from "./Footer";
 import TechStack from "../components/TechStack";
 import About from "./About";
+import Education from "./Education";
 
 const Home = () => {
   const scrollToSection = (id) => {
@@ -29,11 +30,20 @@ const Home = () => {
           <About />
         </div>
       </section>
+      
+      <section
+        id="education"
+        className="min-h-screen text-gray-800 font-sans scroll-mt-24"
+      >
+        <div className="max-w-6xl mx-auto px-8 md:px-20">
+          <Education />
+        </div>
+      </section>
 
       {/* Projects Section */}
       <section
         id="projects"
-        className="min-h-screen bg-white text-gray-800 font-sans py-24"
+        className="min-h-screen bg-white text-gray-800 font-sans py-0"
       >
         <div className="max-w-6xl mx-auto px-8 md:px-20">
           <Projects />

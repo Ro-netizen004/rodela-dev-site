@@ -8,9 +8,7 @@ const Projects = () => {
       id="projects"
       className="min-h-screen bg-white text-gray-900 font-sans px-6 md:px-12 max-w-7xl mx-auto py-16"
     >
-      <h1 className="text-3xl font-semibold mb-10 text-center tracking-tight">
-        My Projects
-      </h1>
+      <h1 className="font-bold text-3xl md:text-4xl text-center mb-20">my projects.</h1>
 
       <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
         {sampleProjects.map(({ id, title, description, link, site, tech }) => (
