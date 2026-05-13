@@ -10,10 +10,6 @@ const Info = () => {
         {/* Info Details */}
         <div className="flex flex-wrap gap-10 sm:gap-20 px-20">
           <div>
-            <div className="font-medium">Origin</div>
-            <div>Bangladesh</div>
-          </div>
-          <div>
             <div className="font-medium">Education</div>
             <div>CS @ USF</div>
           </div>
@@ -29,6 +25,11 @@ const Info = () => {
             <div className="font-medium">GPA</div>
             <div>3.93</div>
           </div>
+          <div>
+            <div className="font-medium">Engineering Focus</div>
+            <div>Full-Stack Developer | ML & Systems Engineering | USF Researcher</div>
+          </div>
+          
         </div>
 
         {/* Social Links */}
