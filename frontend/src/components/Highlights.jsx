@@ -13,7 +13,7 @@ const highlightProjects = [
   {
     title: "WiCSE Website",
     description:
-      "Developed and maintained the official WiCSE website at USF using React and Tailwind CSS, integrating Supabase for backend data management and Google Calendar API for real-time event updates. Contributed to building ‘Coffee with WiCSE,’ a mentorship system using Microsoft Bookings and cloud-based mentor data storage.",
+      "Developed and maintained the official WiCSE website at USF using React and Tailwind CSS, integrating Supabase for backend data management and Google Calendar API for real-time event updates. Contributed to building ‘Coffee with WiCSE,’ a mentorship system using Microsoft Bookings and cloud-based mentor data storage, connecting students with 20+ industry mentors across multiple companies.",
     image: "wicse.png",
     tag: "Frontend",
     live: "https://wicse-website.onrender.com/",

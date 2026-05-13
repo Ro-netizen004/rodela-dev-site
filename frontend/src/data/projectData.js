@@ -12,7 +12,7 @@ export const sampleProjects = [
   id: 11,
   title: "WiCSE Full-Stack Website Platform",
   description:
-    "Led development of the official Women in Computer Science & Engineering (WiCSE) website at USF using React and Tailwind CSS. Built a scalable content system for events and resources, integrated Supabase for structured data storage, and implemented Google Calendar API for real-time event synchronization. Contributed to 'Coffee with WiCSE,' a mentorship system using Microsoft Bookings and cloud-based mentor management.",
+    "Led development of the official Women in Computer Science & Engineering (WiCSE) website at USF using React and Tailwind CSS. Built a scalable content system for events and resources, integrated Supabase for structured data storage, and implemented Google Calendar API for real-time event synchronization. Contributed to 'Coffee with WiCSE,' a mentorship system using Microsoft Bookings and cloud-based mentor management, connecting students with 20+ industry mentors across multiple companies.",
   link: "https://github.com/Ro-netizen004/WICSE-website",
   site: "https://wicse-website.onrender.com/",
   tech: ["React", "Tailwind", "Supabase", "Google Calendar API", "Full-Stack"]
