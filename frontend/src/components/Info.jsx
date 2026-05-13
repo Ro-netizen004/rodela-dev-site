@@ -1,4 +1,5 @@
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import Highlights from "./Highlights";
 
 const Info = () => {
   return (
@@ -22,11 +23,11 @@ const Info = () => {
           </div>
           <div>
             <div className="font-medium">Communities</div>
-            <div>Honors College</div>
+            <div>Honors College @ USF</div>
           </div>
           <div>
             <div className="font-medium">GPA</div>
-            <div>3.9</div>
+            <div>3.93</div>
           </div>
         </div>
 
@@ -59,6 +60,7 @@ const Info = () => {
           </a>
         </div>
       </div>
+      <Highlights />
 
       <div className="w-full -mt-6">
       <img

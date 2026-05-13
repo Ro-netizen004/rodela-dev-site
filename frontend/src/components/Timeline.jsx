@@ -1,13 +1,18 @@
 const Timeline = () => {
   const events = [
-    
-    { year: "August 2025", title: "Peer Health Educator", description: "Promoted student well-being through workshops, events, and peer education focused on mental health, stress, sleep, and overall wellness, gained valuable communication skills."
+    {
+        year: "January 2026 - Present",
+        title: "Research Assistant @ PALM Lab @ USF",
+        description:
+            "Study how input modality affects reasoning in vision-language models using zero-shot evaluation on GSM8K. Analyze text vs image inputs using models like Qwen2-VL and LLaVA, and develop evaluation pipelines to assess accuracy, failure modes, and modality bias."
+    },
+    { year: "August 2025 - December 2025", title: "Peer Health Educator", description: "Promoted student well-being through workshops, events, and peer education focused on mental health, stress, sleep, and overall wellness, gained valuable communication skills."
     },
     {
-        year: "August 2025",
+        year: "September 2025 - May 2026",
         title: "Web Developer @ WICSE",
         description:
-            "Joined Women in Computer Science and Engineering (WICSE) at USF as the lead web developer, currently building their full official website from the ground up and assisting during organizational events."
+            "Built WiCSE website using React and Tailwind CSS with Google Calendar integration for real-time event updates and Supabase-backed mentorship system (“Coffee with WiCSE”)."
     },
 
     {
@@ -17,7 +22,7 @@ const Timeline = () => {
             "Began my CS journey as an Honors student at the University of South Florida as a Green & Gold Presidential Award recipient Expected graduation: Spring 2027."
     },
      {
-        year: "December 2023",
+        year: "December 2023 - April 2024",
         title: "Teaching assistant at Academia (Bangladesh)",
         description:
             "Supported teachers at my high school in planning and delivering lessons, edited and prepared mock examination papers using PDF XChange Editor, reviewed completed papers, and invigilated exams to ensure students followed proper protocols."
